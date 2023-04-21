@@ -135,4 +135,4 @@ print("Translation vector:\n", t_vec)
 print("Scaling factor:\n", scale)
 ```
 
-In this second version, , the scaling factor is computed based on the singular values of the covariance matrix. The scaling factor is then applied to the translation vector to compute the final transformation. Note that this method assumes a uniform scaling factor for all axes.
+In this second version, the scaling factor is computed based on the singular values of the covariance matrix. The scaling factor is then applied to the translation vector to compute the final transformation. Note that this method assumes a uniform scaling factor for all axes.
