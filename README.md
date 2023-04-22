@@ -6,3 +6,5 @@ Personal notebook on various maths and coding topics
 - [ICE to EV consumption equivalent](ice-to-ev-consumption-conversion.md)
 - [List the dependencies of a .LWS file](list-LWS-file-dependencies.md)
 - [Parse a BVH](parse-BVH.md)
+- [Delete a sequence of files in Lua](delete-file-sequence-in-lua.md)
+- [ZIP a sequence of files in Lua](zip-file-sequence-in-lua.md)
