@@ -8,3 +8,4 @@ Personal notebook on various maths and coding topics
 - [Parse a BVH](parse-BVH.md)
 - [Delete a sequence of files in Lua](delete-file-sequence-in-lua.md)
 - [ZIP a sequence of files in Lua](zip-file-sequence-in-lua.md)
+- [PBR to legacy Phong/Lambert](pbr-to-legacy-rendering.md)
