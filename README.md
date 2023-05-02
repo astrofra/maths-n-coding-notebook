@@ -9,3 +9,4 @@ Personal notebook on various maths and coding topics
 - [Delete a sequence of files in Lua](delete-file-sequence-in-lua.md)
 - [ZIP a sequence of files in Lua](zip-file-sequence-in-lua.md)
 - [PBR to legacy Phong/Lambert](pbr-to-legacy-rendering.md)
+- [Logo identification (`yes or no`) using deep learning](logo-identification-using-deep-learning.md)
