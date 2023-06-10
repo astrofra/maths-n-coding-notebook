@@ -10,3 +10,4 @@ Personal notebook on various maths and coding topics
 - [ZIP a sequence of files in Lua](zip-file-sequence-in-lua.md)
 - [PBR to legacy Phong/Lambert](pbr-to-legacy-rendering.md)
 - [Logo identification (`yes or no`) using deep learning](logo-identification-using-deep-learning.md)
+- [Image Analysis and Renaming with TensorFlow and Python](image-analysis-and-renaming-with-tensorflow-and-python.md)
