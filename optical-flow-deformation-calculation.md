@@ -49,3 +49,20 @@ magnitude = np.sqrt(flow[...,0]**2 + flow[...,1]**2)
 - **flags:** Additional option that can be 0 or a combination of cv2.OPTFLOW_USE_INITIAL_FLOW and cv2.OPTFLOW_FARNEBACK_GAUSSIAN.
 
 These parameters allow you to control the accuracy and window size of the algorithm, which can impact the quality of the calculated optical flow.
+
+## Store the optical flow map
+
+To store the content of the magnitude array into a bitmap image, you can use the imwrite function from OpenCV. However, before saving the image, you should normalize the magnitude array to the range 0-255, as pixel intensities in an image are usually 8-bit, ranging from 0 (black) to 255 (white).
+
+```python
+# Normalize the magnitude array to range 0-255
+magnitude_normalized = cv2.normalize(magnitude, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8)
+
+# Save the normalized magnitude array as a bitmap image
+cv2.imwrite('magnitude.bmp', magnitude_normalized)
+```
+
+In this code, cv2.normalize is used to normalize the magnitude array to the range 0-255. The astype(np.uint8) function is used to convert the normalized array to 8-bit unsigned integers, which is the standard format for pixel intensities in an image.
+
+Then, cv2.imwrite is used to save the normalized magnitude array as a bitmap image. The resulting image will be a grayscale image where the intensity of each pixel corresponds to the deformation rate at that pixel in the original images.
+
