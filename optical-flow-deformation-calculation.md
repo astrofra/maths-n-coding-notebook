@@ -2,6 +2,8 @@
 
 This repository provides a Python script to calculate the deformation rate per pixel between an original image and a deformed image using optical flow. The script uses the OpenCV library to calculate the optical flow using the Farnebäck method.
 
+More on **the Farnebäck method** : https://www.programcreek.com/python/example/89313/cv2.calcOpticalFlowFarneback
+
 ## Dependencies
 
 - Python 3.6 or later
